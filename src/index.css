@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-5xl;
+  }
+  h3 {
+    @apply text-3xl font-bold;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  a,
+  p {
+    @apply text-gray-500;
+  }
+}
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent  h-auto inline-block;
+  }
+  .btn {
+    @apply text-white bg-pink-500 rounded-full px-8 py-2;
+  }
+}

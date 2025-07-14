@@ -4,10 +4,10 @@
 
 @layer base {
   h1 {
-    @apply text-5xl;
+    @apply text-4xl;
   }
   h3 {
-    @apply text-3xl font-bold;
+    @apply text-2xl font-bold;
   }
   h4 {
     @apply text-xl;
@@ -17,8 +17,21 @@
   }
   a,
   p {
-    @apply text-gray-500;
+    @apply text-gray-500 text-sm;
   }
+ 
+  section {
+    @apply py-20;
+  }
+  input {
+    @apply h-10 mt-4;
+  }
+  input,
+  textarea {
+    @apply border rounded-lg w-full p-4 mt-4;
+  }
+
+
 }
 @layer components {
   .container {
@@ -28,6 +41,6 @@
     @apply bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent  h-auto inline-block;
   }
   .btn {
-    @apply text-white bg-pink-500 rounded-full px-8 py-2;
+    @apply text-white bg-pink-500 px-8 py-2;
   }
 }

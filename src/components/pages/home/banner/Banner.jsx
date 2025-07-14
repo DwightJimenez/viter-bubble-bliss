@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <section className='bg-gradient-to-r from-pink-100 to-purple-100'>
+      <section className='bg-gradient-to-r from-pink-100 to-purple-100' id="home">
         <div className='container'>
           <div className='grid md:grid-cols-2 gap-8 md:gap-0'>
             <div className='flex flex-col justify-center items-center text-center md:text-left md:items-start space-y-4'>

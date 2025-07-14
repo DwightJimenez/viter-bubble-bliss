@@ -4,7 +4,7 @@ import CardTopping from "../../../partials/CardTopping";
 const Topping = () => {
   return (
     <>
-      <section className='bg-purple-50'>
+      <section className='bg-purple-50' id="toppings">
         <div className='container'>
           <h3 className='text-center'>
             Delicious <span className='gradient-text'>Toppings</span>

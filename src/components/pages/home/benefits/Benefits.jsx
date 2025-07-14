@@ -3,7 +3,7 @@ import React from "react";
 const Benefits = () => {
   return (
     <>
-      <section>
+      <section id="benefits">
         <div className='container'>
           <div className='grid gap-8 md:gap-0 md:grid-cols-2'>
             <div className="flex flex-col items-center md:items-start">

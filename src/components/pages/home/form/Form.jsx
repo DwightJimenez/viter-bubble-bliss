@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
   return (
     <>
-      <section className='bg-gradient-to-r from-pink-100 to-purple-100'>
+      <section className='bg-gradient-to-r from-pink-100 to-purple-100' id="contact">
         <div className='container'>
           <div className='flex flex-col gap-5 items-center'>
             <div className='text-center'>

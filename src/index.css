@@ -15,11 +15,14 @@
   h5 {
     @apply text-lg;
   }
+  a {
+    @apply hover:text-purple-500;
+  }
   a,
   p {
     @apply text-gray-500 text-sm;
   }
- 
+
   section {
     @apply py-20;
   }
@@ -30,8 +33,6 @@
   textarea {
     @apply border rounded-lg w-full p-4 mt-4;
   }
-
-
 }
 @layer components {
   .container {
@@ -41,6 +42,6 @@
     @apply bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent  h-auto inline-block;
   }
   .btn {
-    @apply text-white bg-pink-500 px-8 py-2;
+    @apply text-white bg-pink-500 px-8 py-2 hover:bg-purple-500;
   }
 }

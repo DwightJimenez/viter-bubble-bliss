@@ -4,7 +4,7 @@ import CardPopular from "../../../partials/CardPopular";
 const Popular = () => {
   return (
     <>
-      <section className='bg-white'>
+      <section className='bg-white' id="types">
         <div className='container'>
           <h3 className='text-center'>
             Popular <span className='gradient-text'>Milk Tea</span> Types
